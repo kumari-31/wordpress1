@@ -18,4 +18,4 @@ spec:
         - name: wordpress
           image: kumari3123/wordpress:4  
           ports:
-            - containerPort: 80
+            - containerPort: 9000
