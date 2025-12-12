@@ -12,5 +12,5 @@ spec:
     - name: http
       port: 80
       targetPort: 9000
-      nodeport: 31300
+      nodePort: 31300
 
