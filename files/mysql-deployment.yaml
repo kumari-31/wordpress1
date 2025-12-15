@@ -25,6 +25,8 @@ spec:
           value: "wordpress"    # Database Name
         - name: MYSQL_USER
           value: "wordpress"    # WordPress DB User
+        - name: MYSQL_PASSWORD
+          value: "aixop4kY6iEl"
         ports:
         - containerPort: 3306
         volumeMounts:
