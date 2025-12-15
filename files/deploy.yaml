@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: wordpress
-          image: kumari3123/wordpress:5  
+          image: kumari3123/wordpress:5
           ports:
-            - containerPort: 80
+            - containerPort: 8530
