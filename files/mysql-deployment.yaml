@@ -18,6 +18,12 @@ spec:
       containers:
       - image: mysql:5.7
         name: mysql
+        command: [
+          "mysqld",
+          "--user=mysql",
+          "--explicit-defaults-for-timestamp", # Recommended by the log warnings
+          "--innodb_force_recovery=1" # FORCES INNODB TO START DESPITE CORRUPTION
+        ]
         env:
         - name: MYSQL_ROOT_PASSWORD
           value: "aixop4kY6iEl"  # Database Root Password
