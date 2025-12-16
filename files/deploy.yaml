@@ -23,8 +23,8 @@ spec:
            - name: WORDPRESS_DB_HOST
              value: "mysql-service"
            - name: WORDPRESS_DB_USER
-             value: "wordpress"         
+             value: "wordpress"
            - name: WORDPRESS_DB_PASSWORD
-             value: "aixop4kY6iEl" 
+             value: "aixop4kY6iEl"
            - name: WORDPRESS_DB_NAME
              value: "wordpress"
