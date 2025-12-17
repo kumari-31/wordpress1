@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: wordpress
-          image: kumari3123/wordpress-custom:17
+          image: kumari3123/wordpress-custom:18
           ports:
             - containerPort: 80
           env:
